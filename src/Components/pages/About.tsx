@@ -9,6 +9,7 @@ const About = styled.section`
     width: 100%;
     max-width: 400px;
     p {
+        max-width: 245px;
         opacity: 0.6;
         font-size: 16px;
         span {
@@ -26,20 +27,25 @@ const About = styled.section`
 
 const Row = styled.div`
     display: flex;
+    @media screen and (max-width: 430px) {
+        flex-direction: column;
+    }
 `;
 
 const Column = styled.div``;
 
 const Avatar = styled.div`
-    max-width: 145px;
-    min-width: 145px;
-    height: 130px;
+    width: 145px;
     margin-top: 10px;
     margin-right: 20px;
     img {
         object-fit: cover;
         width: 100%;
         height: 100%;
+    }
+    @media screen and (max-width: 430px) {
+        width: 180px;
+        /* height:  */
     }
 `;
 
