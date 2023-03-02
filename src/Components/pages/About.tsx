@@ -32,7 +32,8 @@ const Column = styled.div``;
 
 const Avatar = styled.div`
     max-width: 145px;
-    height: 120px;
+    min-width: 145px;
+    height: 130px;
     margin-top: 10px;
     margin-right: 20px;
     img {
@@ -58,7 +59,7 @@ export default (() => {
                         
                         <p>Name: Martin Mulholland</p>
                         <p>Age: 25</p>
-                        <p>Occupation: Frontend Developer</p>
+                        <p>Occupation: Frontend Developer <br /> at Northumbria Healthcare NHS Foundation Trust</p>
                         <p><span>Notable Skills</span></p>
                         <ul>
                             <li>HTML</li>
