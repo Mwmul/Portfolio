@@ -58,7 +58,7 @@ export default (() => {
                         
                         <p>Name: Martin Mulholland</p>
                         <p>Age: 25</p>
-                        <p>Occupation: Junior Developer</p>
+                        <p>Occupation: Frontend Developer</p>
                         <p><span>Notable Skills</span></p>
                         <ul>
                             <li>HTML</li>

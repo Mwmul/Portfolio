@@ -1,5 +1,4 @@
 import 'core-js/es/object';
-import 'intersection-observer';
 
 import * as React from 'react';
 import ReactDOM from 'react-dom';
